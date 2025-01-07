@@ -8,6 +8,6 @@ class Lucky {
   int max = int.parse(Platform.environment["MAX"] ?? "10");
 
   int randomNumber() {
-    return min + Random().nextInt(max - min);
+    return min + Random().nextInt(max - min); // generate random
   }
 }
